@@ -4,20 +4,17 @@ def navbar() -> rx.Component:
     return rx.box(
         rx.container(
             rx.hstack(
-            rx.link(
-                rx.text("Home"),
-                href="/",
+            rx.text(
+                'Miguel Angel Lupani',
                 class_name="text-white"
             ),
             rx.spacer(),
-            rx.link(
-                rx.text("About"),
-                href="/about",
+            rx.text(
+                'Dev',
                 class_name="text-white"
             ),
-            rx.link(
-                rx.text("Contact"),
-                href="/contact",
+            rx.text(
+                'Sr.',
                 class_name="text-white"
             ),
                 class_name="w-full text-white",

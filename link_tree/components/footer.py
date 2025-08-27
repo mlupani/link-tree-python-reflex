@@ -5,7 +5,7 @@ def footer() -> rx.Component:
     
     return rx.vstack(
         rx.center(
-            rx.text("Footer", class_name="text-white text-sm"),
+            rx.text("Miguel Angel Lupani", class_name="text-white text-sm"),
         ),
         rx.center(
             rx.text(f"Copyright {datetime.datetime.now().year} - All rights reserved", class_name="text-white text-sm"),
